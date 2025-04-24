@@ -1,0 +1,231 @@
+/* background video */
+
+.video-background-holder {
+    position: relative;
+    background-color: black;
+    height: calc(100vh - 72px);
+    min-height: 48rem;
+    width: 100%;
+    overflow: hidden;
+  }
+  
+  .video-background-holder video {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: 0;
+    -ms-transform: translateX(-50%) translateY(-50%);
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+}
+
+/* color */
+.design{
+    background-color: yellow;
+}
+
+/* navbar section */
+.navbar{
+    background-color: black;
+}
+.nav-item1{
+    font-family: Overpass Lotus Headlines Exlight, Source Han Sans CN ExtraLight, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+    line-height: 0.9;
+    margin-left: 3em;
+
+}
+.nav-item2{
+    margin-left: 3em;
+
+}
+
+.offcanvas-end{
+    width: 31.25rem;
+    line-height: 0.7;
+}
+.navbar-border{
+    border: none;
+}
+.container{
+    /* position: absolute; */
+    bottom: 25%;
+    left: 10%;
+}
+.buttonbg{
+    position: absolute;
+    bottom: 25%;
+    left: 10%;
+}
+
+.hi{
+    background-color: yellow;
+}
+
+.align{
+    margin-left: 9%;
+    margin-top: 3%;
+    font-family: Overpass Lotus Headlines Exlight, Source Han Sans CN ExtraLight, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+/* image section */
+.image-1{
+    width:100%;
+}
+.image-1 img{
+    width:100%;
+}
+.video-overlay-2{
+    position: relative;
+}
+.text-overlay-2{
+    position: absolute;
+    color: yellow;
+    bottom: 35%;
+    left: 10%;
+    
+}
+.content-head{
+    font-family: Overpass Lotus Headlines Exlight, Source Han Sans CN ExtraLight, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+    letter-spacing: 0.5rem;
+}
+.enter-showroom{
+    background-color: yellow;
+    
+}
+.test-drive{
+    position: relative;
+}
+.test-drive-elentre{
+    position: relative;
+}
+.overlay-test-drive{
+    position: absolute;
+}
+
+/* Ensure the container takes up the full viewport height */
+.bg-image {
+    position: relative;
+    width: 100%;
+    height: 100vh; /* Full viewport height */
+    overflow: hidden;
+    background: url('images/Test_drive-Eletre-Desktop.webp') no-repeat center center;
+    background-size: cover; /* Cover ensures the image covers the container */
+    display: flex;
+    align-items: center; /* Center content vertically */
+    justify-content: flex-start; /* Align content to the left */
+     /* Add padding to move text away from the edge */
+}
+
+/* Ensure the text is readable */
+.bg-image h1, .bg-image p {
+    color: white; /* Change to a readable color */
+    z-index: 2; /* Ensures text appears above the background image */
+
+
+}
+
+/* Optional: Style the text for better readability */
+.bg-image h1 {
+    font-size: 3rem; /* Adjust font size as needed */
+    margin-bottom: 1rem; /* Space between heading and paragraph */
+    
+}
+/* .btn{
+    background-color: red;
+    font-size: 1rem;
+} */
+
+
+.bg-image-2 {
+    position: relative;
+    width: 100%;
+    height: 100vh; /* Full viewport height */
+    overflow: hidden;
+    background: url('images/explore-fleet.jpg') no-repeat center center;
+    background-size: cover; /* Cover ensures the image covers the container */
+    display: flex;
+    align-items: center; /* Center content vertically */
+    justify-content: flex-start; /* Align content to the left */
+     /* Add padding to move text away from the edge */
+}
+
+/* Ensure the text is readable */
+.bg-image-2 h1, .bg-image p {
+    color: white; /* Change to a readable color */
+    z-index: 2; /* Ensures text appears above the background image */
+
+
+}
+
+/* Optional: Style the text for better readability */
+.bg-image-2 h1 {
+    font-size: 3rem; /* Adjust font size as needed */
+    margin-bottom: 1rem; /* Space between heading and paragraph */
+    
+}
+.btn{
+    background-color: yellow;
+    font-size: 1rem;
+}
+.logo img{
+    width: 90px;
+}
+.bord{
+    
+    border-bottom: 2px solid yellow;
+
+}
+.text-head{
+    color: yellow;
+}
+
+/* footer section */
+footer{
+    background-color: black;
+}
+.footer-bg{
+    background-color: black;
+}
+.footer-bg-2{
+    background-color: black;
+}
+
+.lower-footer{
+    display: flex;
+}
+
+ul{
+    list-style: none;
+    color: white;
+}
+
+.button-news{
+    background-color: black;
+    color: yellow;
+    border: 3px solid yellow;
+    font-size: small;
+}
+h2{
+    color: white;
+    padding-left: 31px;
+}
+.button-news:hover{
+    color: black;
+    background-color: yellow;
+}
+
+
+/* button effect media-query */
+.emira-1{
+ font-weight: bold;
+}
+@media ( max-width: 768px){
+.emira-1{
+ font-weight: lighter;
+}
+}
